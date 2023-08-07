@@ -1,0 +1,13 @@
+@import "partials/header.scss";
+@import "partials/footer.scss";
+@import "partials/home.scss";
+@import "partials/single-project.scss";
+
+// Enlever les comportements par defaut du thème parent.
+.main-navigation .main-nav ul li a {
+ line-height: normal;
+}
+
+.inside-site-info {
+    display: none;
+}

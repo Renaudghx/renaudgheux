@@ -1,0 +1,31 @@
+.projects_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.projects_content article {
+  width: calc(50% - 40px);
+  height: 100%;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+}
+.projects_content article .card-categorie {
+  display: flex;
+  flex-wrap: wrap;
+}
+.projects_content article .card-categorie .card-term {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: var(--contrast);
+  margin: 5px 5px 5px 0;
+  color: white;
+  font-size: 14px;
+}
+.projects_content article .card-img {
+  height: 50%;
+}
+
+/*# sourceMappingURL=home.css.map */
