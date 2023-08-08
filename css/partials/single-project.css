@@ -1,3 +1,23 @@
-
+.post-content-projects {
+  margin-top: 20px;
+}
+.post-content-projects h2 {
+  margin-top: 20px;
+}
+.post-content-projects .single-term {
+  display: flex;
+  flex-wrap: wrap;
+}
+.post-content-projects .single-term .card-term {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: var(--contrast);
+  margin: 5px 5px 5px 0;
+  color: white;
+  font-size: 14px;
+}
+.post-content-projects .single-projects-description {
+  margin-top: 20px;
+}
 
 /*# sourceMappingURL=single-project.css.map */

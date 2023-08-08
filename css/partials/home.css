@@ -11,10 +11,17 @@
   padding: 20px;
   margin: 20px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 656px;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.1);
 }
 .projects_content article .card-categorie {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 20px;
 }
 .projects_content article .card-categorie .card-term {
   border-radius: 5px;
@@ -26,6 +33,58 @@
 }
 .projects_content article .card-img {
   height: 50%;
+}
+.projects_content article .card-body .card-title {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.projects_content article .card-body-a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0 20px 0;
+  width: 100%;
+}
+.projects_content article .card-body-a .card-link {
+  padding: 10px 20px;
+  color: #2b2d42;
+  background-color: #dbdfff;
+  border-radius: 10px;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.2);
+  transition: all 300ms ease-in-out;
+  animation: ctaProjectback 300ms ease-in-out 0s 1 normal forwards;
+}
+.projects_content article .card-body-a .card-link:hover {
+  color: #dbdfff;
+  background-color: #2b2d42;
+  animation: ctaProject 300ms ease-in-out 0s 1 normal forwards;
+}
+.projects_content article .card-body-a .card-github {
+  width: 150px;
+}
+.projects_content article .card-body-a .card-github img {
+  width: 100%;
+}
+
+@keyframes ctaProject {
+  0% {
+    box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+  }
+  100% {
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.1);
+  }
+}
+@keyframes ctaProjectback {
+  0% {
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.1);
+  }
+  100% {
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+  }
 }
 
 /*# sourceMappingURL=home.css.map */

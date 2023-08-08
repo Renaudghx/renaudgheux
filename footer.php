@@ -41,7 +41,7 @@ do_action( 'generate_before_footer' );
 	 * @hooked generate_construct_footer - 10
 	 */
 	do_action( 'generate_footer' );
-
+	wp_nav_menu(['theme_location' => 'footer']);
 	/**
 	 * generate_after_footer_content hook.
 	 *

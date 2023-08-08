@@ -45,7 +45,17 @@ function cptrenaud_init()
     ]);
 }
 
+function renaud_supports()
+{
+    register_nav_menus(
+        array(
+            'footer' => 'Navigation du footer'
+        )
+    );
+}
+
 add_action('init', 'cptrenaud_init');
+add_action('after_setup_theme', 'renaud_supports');
 
 function taxonomy_get_the_terms($taxonomy)
 {

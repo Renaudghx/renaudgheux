@@ -45,7 +45,7 @@ get_header(); ?>
 								<?php taxonomy_get_the_terms('categorie'); ?>
 							</div>
 						</div>
-						<div class="card-body">
+						<div class="card-body-a">
 							<a href="<?php the_permalink() ?>" class="card-link">Voir le pojet</a>
 							<a href="<?= get_field('github') ?>" class="card-github" target="_blank"><img src="<?= get_stylesheet_directory_uri(); ?>/assets/images/github.png" alt="github"></a>
 						</div>
