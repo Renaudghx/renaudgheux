@@ -1,11 +1,10 @@
 .menu-nav_footer-container {
   background-color: var(--base-3);
-  height: 40px;
+  height: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   & .menu {
     display: flex;
     justify-content: space-around;

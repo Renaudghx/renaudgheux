@@ -1,3 +1,5 @@
-
+.main-navigation li {
+  color: var(--contrast);
+}
 
 /*# sourceMappingURL=header.css.map */
